@@ -1,5 +1,10 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 body{
-  background-color: #FAD4D4;
+  background-image: radial-gradient(circle, #ee7fab, #e58fc0, #db9ed0, #d2acdb, #cbb9e1);
   margin: 2rem;
   padding: 1.5rem;
 }
@@ -20,10 +25,30 @@ button{
   position: absolute;
   margin-left: 20rem;
   top:24rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   font-size: 1.2rem;
   padding: 14px;
-  background-color: skyblue;
+  background-color: #6CC4A1;
+  border-color: white;
+  transition:all 400ms ease;
+}
+button:hover {
+  background-color: #4CACBC;
+  width: 7.7rem;
+}
+.gmail{
+  position: absolute;
+  margin-left: 30rem;
+  top:24rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  padding: 14px;
+  background-color: #6CC4A1;
+  transition:all 400ms ease; 
+}
+.gmail:hover {
+  background-color: #D3EBCD;
+  width: 8.5rem;
 }
 p{
   font-size: 1.3rem;
@@ -32,4 +57,7 @@ div{
   display: flex;
   margin: 2rem;
   padding: 3rem;
+}
+li{
+  font-size: large;
 }
