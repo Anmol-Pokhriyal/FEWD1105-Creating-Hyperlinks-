@@ -12,35 +12,27 @@
 <body>
   <h1>"Universal Daemonization"</h1>
   <div>
-    <!-- Iteration 1: Use image as a Block level link (https://en.wikipedia.org/wiki/Kevin_Ashto)-->
-    <a href="">
-      <!-- Iteration 2:Try to give the path in the directory (assets/dwn1.jfif) giving an relative path(assets/dwn1.jfif) -->
-      <img src="" alt="Kevin picture">
-    </a>
+    <!-- Iteration 1: Give the appropriate hyperlink (eg: https://en.wikipedia.org/wiki/Kevin_Ashto) to the image -->
+    <!-- Iteration 2: Give the appropriate relative path to the image in the directory (assets/dwn1.jfif) where it is saved-->
+    <img src="" alt="Kevin picture">
     <h5>
       In 1999 British technology pioneer Kevin Ashton,
-      <!-- Iteration 3: Use hyperlink for reaching to MIT homepage giving an absolute path (https://autoid.mit.edu/)-->
-      co-founder of the <a href="">Auto-ID Laboratory at MIT</a>,
-      <!-- Iteration 4: Use hyperlink to reach IoT wikipedia (https://en.wikipedia.org/wiki/Internet_of_Things") & use Title attribute (Whole information of Internet Of Things)-->
-      invented the term "<a href="" title="">The Internet of Things</a>" to
+      <!-- Iteration 3: Give an hyperlink to "Auto-ID Laboratory at MIT" for reaching to MIT homepage giving an absolute path(https://autoid.mit.edu/) -->
+      co-founder of the Auto-ID Laboratory at MIT,
+      invented the term "<a href="https://en.wikipedia.org/wiki/Internet_of_Things" title="Whole information of Internet Of Things">The Internet of Things</a>" to
       describe a system where the Internet is connected to the physical world via ubiquitous sensors,
-      <!-- Iteration 5: Use hyperlink to reach RFID wikipedia (https://en.wikipedia.org/wiki/Radio-frequency_identification) & use Title attribute (Whole information of Radio-frequency identification) -->
-      including <a href="" title="">RFID (Radio-frequency identification)</a>.
+      <!-- Iteration 4: Give hyperlink to reach "RFID (Radio-frequency identification)" wikipedia & also give Title attribute  -->
+      including RFID (Radio-frequency identification).
     </h5>
   </div>
-  <!-- Iteration 6: Use hyperlink (https://mobile.twitter.com/kevin_ashton) a button -->
-  <a href="">
-    <button type="button" name="button">Follow Me</button>
-  </a>
-      <!-- Iteration 7: Use hyperlinkas to e-mail (mailto:www.gmail.com) anyone -->
-  <a href="">
-    <button class="gmail" type="button" name="button">Contact Me</button>
-    </a>
+  <!-- Iteration 5: Give appropriate hyperlink (Eg: https://mobile.twitter.com/kevin_ashton) for the button "Follow Me" -->
+  <button type="button" name="button">Follow Me</button>
+  <!-- Iteration 5.2: Provide an E-mail Link (Eg :mailto:www.gmail.com) for the button "Contact Me"-->
+  <button class="gmail" type="button" name="button">Contact Me</button>
 
   </br>
   <p>
-    <!-- Iteration 8: Use hyperlink visit wikipedia (https://en.wikipedia.org/wiki/Kevin_Ashto) (Kevin Ashton) -->
-    <a href="">Ashton</a>'s original definition was: 'Today computers—and, therefore, the Internet—are almost
+    <a href="https://en.wikipedia.org/wiki/Kevin_Ashto">Ashton</a>'s original definition was: 'Today computers—and, therefore, the Internet—are almost
     wholly dependent on human beings for information. Nearly all of the roughly 50 petabytes (a
     petabyte is 1,024 terabytes) of data available on the Internet were first captured and created
     by human beings—by typing, pressing a record button, taking a digital picture or scanning a bar code.
@@ -48,8 +40,9 @@
     The problem is, people have limited time, attention and accuracy—all of which means they are not very
     good at capturing data about things in the real world. And that's a big deal. We're physical, and
     so is our environment ... You can't eat bits, burn them to stay warm or put them in your gas tank.
-    <!-- Iteration 9:By the use of Document Fragments give hyperlink reference as id (#tech)  -->
-    Ideas and information are important, but things matter much more. Yet today's information <a href="">technology</a> is
+    <!-- Iteration 6: Give an appropriate hyperlink to the term  "technology" to connect it with the "Technologies closer than they may appear"
+                      provided in the same web page-->
+    Ideas and information are important, but things matter much more. Yet today's information technology is
     so dependent on data originated by people that our computers know more about ideas than things. If we
     had computers that knew everything there was to know about things—using data they
     gathered without any help from us—we would be able to track and count everything,
@@ -60,20 +53,17 @@
   </p>
   </br>
   <p>
-    <!-- Iteration 10: Use of link (https://en.wikipedia.org/wiki/Birmingham) target (_blank) Attribute to open link on new tab -->
-    Ashton was born in <a href="" target="">Birmingham</a>, UK.
+    <!-- Iteration 7: Create a hyperlink for "Birmingham"  and provide appropriate attribute to open link on a new tab -->
+    Ashton was born in Birmingham, UK.
     He read Scandinavian Studies
-    <!-- Iteration 11: Use of link (https://en.wikipedia.org/wiki/University_College_London) target (_blank) attribute to open link on new tab -->
-    at <a href="" target="">University College London</a>
+    <!-- Iteration 7.1: Create a hyperlink for "University College London"  and provide appropriate attribute to open link on a new tab -->
+    at University College London
     from 1990 to 1994. He was working as an assistant brand
-    <!-- Iteration 12: Use hyperlink to reach Procter & Gamble wikipedia (https://en.wikipedia.org/wiki/Procter_%26_Gamble) and use target (_blank) attribute -->
-    manager at <a href="" target="">Procter & Gamble</a>
+    manager at <a href="https://en.wikipedia.org/wiki/Procter_%26_Gamble" target="_blank">Procter & Gamble</a>
     (P&G) in 1997 when he became interested in using RFID to help
-    <!-- Iteration 13: Use hyperlink to reach supply chain wikipedia (https://en.wikipedia.org/wiki/Supply_chain) without Title attribute -->
-    manage P&G's <a href="">supply chain</a>. This
+    manage P&G's <a href="https://en.wikipedia.org/wiki/Supply_chain">supply chain</a>. This
     work led him to MIT, where he helped start an RFID research consortium called the Auto-ID Center with
-    <!-- Iteration 14: Use hyperlink to reach Sanjay Sarma wikipedia (https://en.wikipedia.org/wiki/Sanjay_Sarma) with Title (an Indian mechanical engineer) attribute -->
-    professors <a href="" title="">Sanjay Sarma</a>
+    professors <a href="https://en.wikipedia.org/wiki/Sanjay_Sarma" title="an Indian mechanical engineer">Sanjay Sarma</a>
     and Sunny Siu and researcher David Brock. The
     center opened in 1999 as an industry-sponsored research project with the goal of
     creating a global open standard system to put RFID everywhere. Ashton was the
@@ -81,47 +71,47 @@
     Chairman of Research. Under Ashton and Sarma's leadership, the number of sponsors
     grew to 103, and additional labs were funded at other major universities around the
     world. Once the system was developed, MIT licensed it to not-for-profit standards
-    <!-- Iteration 15: Use hyperlink to reach GS1 wikipedia (https://en.wikipedia.org/wiki/GS1) & use Title (GS1 is a neutral, not-for-profit, international organization developing and maintaining standards including barcodes) and target attribute (_blank) -->
-    body <a href="" title="" target="">GS1</a> and the project reached a
+    <!-- Iteration 8: Provide hyperlink for the term "GS1" to reach "GS1 wikipedia" & give appropriate attributes to show extra information about the link & open link on a new page -->
+    body GS1 and the project reached a
     successful conclusion. The labs were renamed
-    <!-- Iteration 16: Use hyperlink to reach Auto-ID Labs wikipedia (https://en.wikipedia.org/wiki/Auto-ID_Labs) & use Title (The Auto-ID Labs network is a research group in the field of networked radio-frequency identification (RFID) and emerging sensing technologies.) and target attribute (_blank) -->
-    <a href="" title="" target="">Auto-ID Labs</a> and
+    <a href="https://en.wikipedia.org/wiki/Auto-ID_Labs" title="he Auto-ID Labs network is a research group in the field of networked radio-frequency identification (RFID) and emerging sensing technologies." target="_blank">Auto-ID Labs</a> and
     continue their research.
   </p>
   </br>
   <h1>Concepts</h1>
-  <p>Universal Daemonization, at its core, is a new way in which humans and other types of 
+  <p>Universal Daemonization, at its core, is a new way in which humans and other types of
     objects will interact with the world. Here are the primary concepts and components:</p>
-    <p>
-      <ul>
-      <li>Both humans and objects will broadcast daemons around themselves, complete with hundreds of pieces of information about them. 
-        Imagine an aggregate of every profile ever completed, only being dynamically updated by interaction with the world</li>
-        <!-- Iteration 17:Always go for a best link practice (https://en.wikipedia.org/wiki/Internet_protocol_suite) then also try href(https://www.google.com/search?q=tcp%2Fip+wikipedia&rlz=1C1CHBF_enIN1003IN1003&oq=TCP%2FIP+wikipedia&aqs=chrome.0.0i512l2j0i22i30l5j69i58.9058j0j7&sourceid=chrome&ie=UTF-8) and see the result of bad link practice -->
-    <li>These daemons will sit on top of a modified version of a standard tech stack, i.e., <a href="">TCP/IP</a>, HTTP, REST-based web services</li>
+  <p>
+  <ul>
+    <li>Both humans and objects will broadcast daemons around themselves, complete with hundreds of pieces of information about them.
+      Imagine an aggregate of every profile ever completed, only being dynamically updated by interaction with the world</li>
+    <!-- Iteration 9: For a best link practice provide hyperlink (Eg :https://en.wikipedia.org/wiki/Internet_protocol_suite) to the term "TCP/IP" & now compare it with
+                          bad practice (Eg :https://www.google.com/search?q=tcp%2Fip+wikipedia&rlz=1C1CHBF_enIN1003IN1003&oq=TCP%2FIP+wikipedia&aqs=chrome.0.0i512l2j0i22i30l5j69i58.9058j0j7&sourceid=chrome&ie=UTF-8) -->
+    <li>These daemons will sit on top of a modified version of a standard tech stack, i.e., TCP/IP, HTTP, REST-based web services</li>
     <li>Both humans and objects will have Intention Brokers (IBs) that parse the daemons around them and take actions on their behalf</li>
-    <li>For humans this will come in the form of Personal Assistants like Siri, Google Now, and Cortana, 
-      which will parse the daemons around them and do things like update their preferences, 
+    <li>For humans this will come in the form of Personal Assistants like Siri, Google Now, and Cortana,
+      which will parse the daemons around them and do things like update their preferences,
       submit food orders, send social pokes to people nearby with similar interests, and requesting more information about products of interest</li>
     </li>
-    <li>The living room wall in a family will be transformable into a real-time display of the entire family’s 
-      fitness, diet, blood work, grades in school, heartrate, daily purchase history, summary of voice and text 
-      messages used, social interaction tree, college fund savings goals, current home value based on who moved in on the block today, 
+    <li>The living room wall in a family will be transformable into a real-time display of the entire family’s
+      fitness, diet, blood work, grades in school, heartrate, daily purchase history, summary of voice and text
+      messages used, social interaction tree, college fund savings goals, current home value based on who moved in on the block today,
       and current retirement fund performance—all updated to the minute</li>
-      </p>
+    </p>
     </br>
-        <!-- Iteration 9:For Document Fragments give id (#tech) to h1  -->
-    <h1 id="">Technologies closer than they may appear</h1>
-    <p>What’s fascinating about this is how tangible it is given existing technology. 
+    <!-- Iteration 10: Provide an appropriate id (eg :#tech) to h1 tag for Document Fragments -->
+    <h1>Technologies closer than they may appear</h1>
+    <p>What’s fascinating about this is how tangible it is given existing technology.
       We have the protocols and tech stacks. All we need is someone to realize how close we are and how much money can be made from it.</p>
-      <p>And while the technology is remarkably within reach, it’s application in this way will be highly emergent in nature. 
-        The social implications will be particularly significant, 
-        as who you are—and the privileges you enjoy—will exponentially magnify what you have access to.</p>
-      <p>Governments will invent budgets once they realize the monitoring and tracking power of centralized and continuous identity broadcast, 
-        and it’ll all happen quickly under the Jedi-hand-gesture of “security”.</p>
-      <p>To accelerate things even further, the advertising industry will dump untold billions the moment they realize the 
-        staggering potential to hyperfocus their spend on those most likely to purchase.</p>
-      <p>It’s simply too logical, too obvious, and has too much potential to be stopped.</p>
-  <h1>Thank You</h1>
+    <p>And while the technology is remarkably within reach, it’s application in this way will be highly emergent in nature.
+      The social implications will be particularly significant,
+      as who you are—and the privileges you enjoy—will exponentially magnify what you have access to.</p>
+    <p>Governments will invent budgets once they realize the monitoring and tracking power of centralized and continuous identity broadcast,
+      and it’ll all happen quickly under the Jedi-hand-gesture of “security”.</p>
+    <p>To accelerate things even further, the advertising industry will dump untold billions the moment they realize the
+      staggering potential to hyperfocus their spend on those most likely to purchase.</p>
+    <p>It’s simply too logical, too obvious, and has too much potential to be stopped.</p>
+    <h1>Thank You</h1>
 </body>
 
 </html>
