@@ -7,12 +7,11 @@
   <link rel="stylesheet" href="index.css">
 </head>
 
-<!-- ########body######## -->
-
 <body>
   <h1>"Universal Daemonization"</h1>
   <div>
     <!-- Iteration 1: Give the appropriate hyperlink (eg: https://en.wikipedia.org/wiki/Kevin_Ashto) to the image -->
+
     <!-- Iteration 2: Give the appropriate relative path to the image in the directory (assets/dwn1.jfif) where it is saved-->
     <img src="" alt="Kevin picture">
     <h5>
@@ -25,7 +24,7 @@
       including RFID (Radio-frequency identification).
     </h5>
   </div>
-  <!-- Iteration 5: Give appropriate hyperlink (Eg: https://mobile.twitter.com/kevin_ashton) for the button "Follow Me" -->
+  <!-- Iteration 5.1: Give appropriate hyperlink (Eg: https://mobile.twitter.com/kevin_ashton) for the button "Follow Me" -->
   <button type="button" name="button">Follow Me</button>
   <!-- Iteration 5.2: Provide an E-mail Link (Eg :mailto:www.gmail.com) for the button "Contact Me"-->
   <button class="gmail" type="button" name="button">Contact Me</button>
@@ -53,10 +52,10 @@
   </p>
   </br>
   <p>
-    <!-- Iteration 7: Create a hyperlink for "Birmingham"  and provide appropriate attribute to open link on a new tab -->
+    <!-- Iteration 7.1: Create a hyperlink for "Birmingham"  and provide appropriate attribute to open link on a new tab -->
     Ashton was born in Birmingham, UK.
     He read Scandinavian Studies
-    <!-- Iteration 7.1: Create a hyperlink for "University College London"  and provide appropriate attribute to open link on a new tab -->
+    <!-- Iteration 7.2: Create a hyperlink for "University College London"  and provide appropriate attribute to open link on a new tab -->
     at University College London
     from 1990 to 1994. He was working as an assistant brand
     manager at <a href="https://en.wikipedia.org/wiki/Procter_%26_Gamble" target="_blank">Procter & Gamble</a>
